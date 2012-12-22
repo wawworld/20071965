@@ -20,6 +20,9 @@ Snake_Game::Snake_Game() : gameover_(false) , item_num_(0) , speed_ (150) , kMax
 	MAP_MANAGER->RegisterMap(stage_four);
 
 	this->SetGame();
+    
+    
+    
 };
 
 //------------------------------- SetGame -------------------------------------
