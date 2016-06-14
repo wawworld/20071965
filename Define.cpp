@@ -10,7 +10,7 @@
 void SetCursorType(CURSOR_TYPE c)
 {
 	CONSOLE_CURSOR_INFO CurInfo;
-
+// 리뷰 진행 방식 
 	switch (c) {
 	case NOCURSOR:
 		CurInfo.dwSize=1;

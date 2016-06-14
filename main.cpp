@@ -7,4 +7,7 @@ void main()
 	snake_game->Run();
 
 	snake_game->~Snake_Game();
+	
+	// 테스트 from 구름
+	
 }
